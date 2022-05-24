@@ -35,80 +35,100 @@ Partial Class TTTVB
         '
         'Btn1
         '
+        Me.Btn1.BackColor = System.Drawing.Color.YellowGreen
+        Me.Btn1.Font = New System.Drawing.Font("DS-Digital", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Btn1.ForeColor = System.Drawing.Color.White
         Me.Btn1.Location = New System.Drawing.Point(12, 97)
         Me.Btn1.Name = "Btn1"
         Me.Btn1.Size = New System.Drawing.Size(100, 97)
         Me.Btn1.TabIndex = 0
-        Me.Btn1.UseVisualStyleBackColor = True
+        Me.Btn1.UseVisualStyleBackColor = False
         '
         'Btn2
         '
+        Me.Btn2.BackColor = System.Drawing.Color.YellowGreen
+        Me.Btn2.Font = New System.Drawing.Font("DS-Digital", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn2.Location = New System.Drawing.Point(118, 97)
         Me.Btn2.Name = "Btn2"
         Me.Btn2.Size = New System.Drawing.Size(100, 97)
         Me.Btn2.TabIndex = 1
-        Me.Btn2.UseVisualStyleBackColor = True
+        Me.Btn2.UseVisualStyleBackColor = False
         '
         'Btn3
         '
+        Me.Btn3.BackColor = System.Drawing.Color.YellowGreen
+        Me.Btn3.Font = New System.Drawing.Font("DS-Digital", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn3.Location = New System.Drawing.Point(224, 97)
         Me.Btn3.Name = "Btn3"
         Me.Btn3.Size = New System.Drawing.Size(100, 97)
         Me.Btn3.TabIndex = 2
-        Me.Btn3.UseVisualStyleBackColor = True
+        Me.Btn3.UseVisualStyleBackColor = False
         '
         'Btn4
         '
+        Me.Btn4.BackColor = System.Drawing.Color.YellowGreen
+        Me.Btn4.Font = New System.Drawing.Font("DS-Digital", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn4.Location = New System.Drawing.Point(12, 200)
         Me.Btn4.Name = "Btn4"
         Me.Btn4.Size = New System.Drawing.Size(100, 97)
         Me.Btn4.TabIndex = 3
-        Me.Btn4.UseVisualStyleBackColor = True
+        Me.Btn4.UseVisualStyleBackColor = False
         '
         'Btn5
         '
+        Me.Btn5.BackColor = System.Drawing.Color.YellowGreen
+        Me.Btn5.Font = New System.Drawing.Font("DS-Digital", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn5.Location = New System.Drawing.Point(118, 200)
         Me.Btn5.Name = "Btn5"
         Me.Btn5.Size = New System.Drawing.Size(100, 97)
         Me.Btn5.TabIndex = 4
-        Me.Btn5.UseVisualStyleBackColor = True
+        Me.Btn5.UseVisualStyleBackColor = False
         '
         'Btn6
         '
+        Me.Btn6.BackColor = System.Drawing.Color.YellowGreen
+        Me.Btn6.Font = New System.Drawing.Font("DS-Digital", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn6.Location = New System.Drawing.Point(224, 200)
         Me.Btn6.Name = "Btn6"
         Me.Btn6.Size = New System.Drawing.Size(100, 97)
         Me.Btn6.TabIndex = 5
-        Me.Btn6.UseVisualStyleBackColor = True
+        Me.Btn6.UseVisualStyleBackColor = False
         '
         'Btn7
         '
+        Me.Btn7.BackColor = System.Drawing.Color.YellowGreen
+        Me.Btn7.Font = New System.Drawing.Font("DS-Digital", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn7.Location = New System.Drawing.Point(12, 303)
         Me.Btn7.Name = "Btn7"
         Me.Btn7.Size = New System.Drawing.Size(100, 97)
         Me.Btn7.TabIndex = 6
-        Me.Btn7.UseVisualStyleBackColor = True
+        Me.Btn7.UseVisualStyleBackColor = False
         '
         'Btn8
         '
+        Me.Btn8.BackColor = System.Drawing.Color.YellowGreen
+        Me.Btn8.Font = New System.Drawing.Font("DS-Digital", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn8.Location = New System.Drawing.Point(118, 303)
         Me.Btn8.Name = "Btn8"
         Me.Btn8.Size = New System.Drawing.Size(100, 97)
         Me.Btn8.TabIndex = 7
-        Me.Btn8.UseVisualStyleBackColor = True
+        Me.Btn8.UseVisualStyleBackColor = False
         '
         'Btn9
         '
+        Me.Btn9.BackColor = System.Drawing.Color.YellowGreen
+        Me.Btn9.Font = New System.Drawing.Font("DS-Digital", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn9.Location = New System.Drawing.Point(224, 303)
         Me.Btn9.Name = "Btn9"
         Me.Btn9.Size = New System.Drawing.Size(100, 97)
         Me.Btn9.TabIndex = 8
-        Me.Btn9.UseVisualStyleBackColor = True
+        Me.Btn9.UseVisualStyleBackColor = False
         '
         'TTTVB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.DarkSeaGreen
         Me.ClientSize = New System.Drawing.Size(337, 413)
         Me.Controls.Add(Me.Btn9)
         Me.Controls.Add(Me.Btn8)
