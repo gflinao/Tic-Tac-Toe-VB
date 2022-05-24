@@ -31,6 +31,9 @@ Partial Class TTTVB
         Me.Btn7 = New System.Windows.Forms.Button()
         Me.Btn8 = New System.Windows.Forms.Button()
         Me.Btn9 = New System.Windows.Forms.Button()
+        Me.BtnReset = New System.Windows.Forms.Button()
+        Me.BtnExit = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Btn1
@@ -124,12 +127,51 @@ Partial Class TTTVB
         Me.Btn9.TabIndex = 8
         Me.Btn9.UseVisualStyleBackColor = False
         '
+        'BtnReset
+        '
+        Me.BtnReset.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BtnReset.Font = New System.Drawing.Font("DS-Digital", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.BtnReset.ForeColor = System.Drawing.Color.White
+        Me.BtnReset.Location = New System.Drawing.Point(12, 68)
+        Me.BtnReset.Name = "BtnReset"
+        Me.BtnReset.Size = New System.Drawing.Size(155, 23)
+        Me.BtnReset.TabIndex = 9
+        Me.BtnReset.Text = "Reset"
+        Me.BtnReset.UseVisualStyleBackColor = False
+        '
+        'BtnExit
+        '
+        Me.BtnExit.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BtnExit.Font = New System.Drawing.Font("DS-Digital", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.BtnExit.ForeColor = System.Drawing.Color.White
+        Me.BtnExit.Location = New System.Drawing.Point(169, 68)
+        Me.BtnExit.Name = "BtnExit"
+        Me.BtnExit.Size = New System.Drawing.Size(155, 23)
+        Me.BtnExit.TabIndex = 10
+        Me.BtnExit.Text = "Exit"
+        Me.BtnExit.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("DS-Digital", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(49, 9)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(248, 47)
+        Me.Label1.TabIndex = 11
+        Me.Label1.Text = "Tic Tac Toe"
+        '
         'TTTVB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkSeaGreen
         Me.ClientSize = New System.Drawing.Size(337, 413)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.BtnExit)
+        Me.Controls.Add(Me.BtnReset)
         Me.Controls.Add(Me.Btn9)
         Me.Controls.Add(Me.Btn8)
         Me.Controls.Add(Me.Btn7)
@@ -142,6 +184,7 @@ Partial Class TTTVB
         Me.Name = "TTTVB"
         Me.Text = "Tic Tac Toe"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -154,4 +197,7 @@ Partial Class TTTVB
     Friend WithEvents Btn7 As Button
     Friend WithEvents Btn8 As Button
     Friend WithEvents Btn9 As Button
+    Friend WithEvents BtnReset As Button
+    Friend WithEvents BtnExit As Button
+    Friend WithEvents Label1 As Label
 End Class
