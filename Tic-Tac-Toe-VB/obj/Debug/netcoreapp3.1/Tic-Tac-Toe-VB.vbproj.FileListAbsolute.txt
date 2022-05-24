@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\Tic-Tac-Toe-VB\Tic-Tac-Toe-VB\obj\Debug\netcoreapp3.1\Tic-Tac-Toe-VB.vbproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Tic-Tac-Toe-VB\Tic-Tac-Toe-VB\obj\Debug\netcoreapp3.1\Tic_Tac_Toe_VB.TTTVB.resources
+C:\Users\admin\source\repos\Tic-Tac-Toe-VB\Tic-Tac-Toe-VB\obj\Debug\netcoreapp3.1\Tic-Tac-Toe-VB.vbproj.GenerateResource.cache
+C:\Users\admin\source\repos\Tic-Tac-Toe-VB\Tic-Tac-Toe-VB\obj\Debug\netcoreapp3.1\Tic-Tac-Toe-VB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\Tic-Tac-Toe-VB\Tic-Tac-Toe-VB\obj\Debug\netcoreapp3.1\Tic-Tac-Toe-VB.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Tic-Tac-Toe-VB\Tic-Tac-Toe-VB\obj\Debug\netcoreapp3.1\Tic-Tac-Toe-VB.AssemblyInfo.vb
+C:\Users\admin\source\repos\Tic-Tac-Toe-VB\Tic-Tac-Toe-VB\obj\Debug\netcoreapp3.1\Tic-Tac-Toe-VB.vbproj.CoreCompileInputs.cache
