@@ -28,32 +28,23 @@
         If Btn1.Text = Btn4.Text And Btn4.Text = Btn7.Text And Not Btn1.Enabled Then
             Winner = True
 
-
-
         ElseIf Btn2.Text = Btn5.Text And Btn5.Text = Btn8.Text And Not Btn2.Enabled Then
             Winner = True
-
 
         ElseIf Btn3.Text = Btn6.Text And Btn6.Text = Btn9.Text And Not Btn3.Enabled Then
             Winner = True
 
-
         ElseIf Btn1.Text = Btn5.Text And Btn5.Text = Btn9.Text And Not Btn1.Enabled Then
             Winner = True
-
-
 
         ElseIf Btn3.Text = Btn5.Text And Btn5.Text = Btn7.Text And Not Btn3.Enabled Then
             Winner = True
 
-
         ElseIf Btn1.Text = Btn2.Text And Btn2.Text = Btn3.Text And Not Btn1.Enabled Then
             Winner = True
 
-
         ElseIf Btn4.Text = Btn5.Text And Btn5.Text = Btn6.Text And Not Btn4.Enabled Then
             Winner = True
-
 
         ElseIf Btn7.Text = Btn8.Text And Btn7.Text = Btn9.Text And Not Btn7.Enabled Then
             Winner = True
@@ -65,15 +56,15 @@
             Dim pwinner As String = ""
 
             If player Then
-                pwinner = "0"
+                pwinner = "Player 0"
             Else
-                pwinner = "X"
+                pwinner = "Player X"
             End If
 
-            MessageBox.Show(pwinner + "Won!")
+            MessageBox.Show(pwinner + " Wins! ")
         Else
             If player_turn = 9 Then
-                MessageBox.Show("Draw!")
+                MessageBox.Show("Game is Draw!")
             End If
 
         End If
